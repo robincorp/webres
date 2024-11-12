@@ -1,0 +1,49 @@
+.table{
+
+    background:rgba(44, 46, 136, 0.514);
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    padding: 20px;
+    
+}
+.table2{
+
+    background:rgb(56, 85, 122);
+    color: white;
+    padding: 20px;
+    padding-left: 80%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.heading{
+text-align: center;
+   
+}
+table{
+    margin-left: 30%;
+    text-align: center;
+    background-color: rgb(71, 125, 156);
+}
+
+/* Responsive styling */
+@media screen and (min-width: 1024px) {
+    /* Desktop: 3 cards per row */
+    .card {
+        flex: 1 1 calc(33.33% - 32px); /* Adjust width */
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet: 2 cards per row */
+    .card {
+        flex: 1 1 calc(50% - 32px); /* Adjust width */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Mobile: 1 card per row */
+    .card {
+        flex: 1 1 100%;
+    }
+}
